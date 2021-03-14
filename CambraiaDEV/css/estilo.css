@@ -1,14 +1,27 @@
 #videobg{
     position:fixed;
-    right:0;
-    bottom:0;
-    width:100%;
-
-    
-    
     z-index: -1000;
 
 }
+#videobg{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+@media (min-aspect-ratio: 16/9) {
+    #videobg{
+        width:100%;
+        height:auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videobg{
+        width:auto;
+        height:100%;
+        
+    }
+}
+
 
 .white{
     color:white;
