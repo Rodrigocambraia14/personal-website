@@ -3,7 +3,21 @@
     right:0;
     bottom:0;
     width:100%;
+
+    
     
     z-index: -1000;
 
+}
+
+.white{
+    color:white;
+}
+
+.title {
+    color:rgb(219, 243, 1);
+}
+
+ul li a{
+  color:white;
 }
