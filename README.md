@@ -1,4 +1,4 @@
 # Personal website
- este é meu primeiro repositório commitado para o GitHub, meu projeto de desenvolvimento de um website pessoal para apresentação das minhas hard / soft skills, disponibilização de formas de contato, e apresentação de currículo.
+ This is my first commited repository, my project in current development, is about my personnal website in order to present my  hard / soft skills, giving informations like Linkedin profile and stuff, and also the possibility to download my curriculum.
 
- (o projeto está sujeito a receber novos updates a todo momento, conforme surgir a necessidade de novas implementações)
+ (This project is subject to receive new updates at any time, as the need arises.
