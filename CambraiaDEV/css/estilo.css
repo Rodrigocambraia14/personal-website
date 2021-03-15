@@ -22,13 +22,20 @@
     }
 }
 
+.text-box{
+    background:rgb(0, 0, 0, 0.6);
+    border-radius:3px;
+    margin:3px;
+}
+
 
 .white{
-    color:white;
+    color:rgb(252, 252, 252, 0.8);
+    font-family:sans-serif;
 }
 
 .title {
-    color:rgb(219, 243, 1);
+    color:rgb(225, 247, 28);
 }
 
 ul li a{
