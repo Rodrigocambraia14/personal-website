@@ -22,11 +22,22 @@
     }
 }
 
-.text-box{
+.text-box-outside{
     background:rgb(0, 0, 0, 0.6);
     border-radius:3px;
-    margin:3px;
+    width: 20%;
 }
+.text-box-inside{
+    display: flex;
+    
+}
+.text-box2-outside{
+    background:rgb(0, 0, 0, 0.6);
+    border-radius:3px;
+    
+    width: 20%;
+}
+
 
 
 .white{
