@@ -113,7 +113,7 @@ footer p{
     }
 }
 
-.text-box-outside{
+.text-box-outer{
     background:rgb(0, 0, 0, 0.6);
     border-radius:6px;
     width: 20%;
@@ -123,11 +123,11 @@ footer p{
     height:400px;
     transition: transform .3s;
 }
-.text-box-outside:hover{
+.text-box-outer:hover{
     transform: scale(1.1);
     
 }
-.text-box-inside{
+.text-box-inner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@ footer p{
     margin-top:11%;
     width:90%;
 }
-.text-box2-outside{
+.text-box2-outer{
     background:rgba(0, 0, 0, 0.7);
     border-radius:6px;
     justify-content: center;
@@ -148,10 +148,10 @@ footer p{
     height:400px;
     transition: transform .3s;
 }
-.text-box2-outside:hover{
+.text-box2-outer:hover{
     transform: scale(1.1);
 }
-.text-box2-outside img{
+.text-box2-outer img{
     display:flex;
     margin:auto;
     margin-top:7%;
@@ -161,7 +161,7 @@ footer p{
 
 }
 
-.text-box2-inside{
+.text-box2-inner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,3 +183,32 @@ footer p{
 ul li a{
   color:white;
 }
+
+.paw-icons{
+    width: 100%;
+    margin-top:7%;
+    height:300px;
+    
+
+}
+
+
+
+.paw-icons ul li{
+    display: inline-block;
+    margin: 20px;
+    padding-left: 85px;
+    
+}
+.paw-icons ul li a img{
+    opacity: 0.3;
+    transition: 0.3s;
+    
+}
+
+.paw-icons ul li a img:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+
+}
+
