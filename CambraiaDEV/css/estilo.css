@@ -68,7 +68,7 @@ html #all{
 }
 
 footer{
-   position:absolute;
+   position:fixed;
    bottom:0; 
    background-color: rgb(0, 0, 0, 0.7);
    width:100%;
@@ -185,9 +185,12 @@ ul li a{
 }
 
 .paw-icons{
+    position:absolute;
     width: 100%;
-    margin-top:7%;
-    height:300px;
+    margin-top:55%;
+    padding-bottom:5%;
+    
+    
     
 
 }
@@ -197,7 +200,7 @@ ul li a{
 .paw-icons ul li{
     display: inline-block;
     margin: 20px;
-    padding-left: 85px;
+    padding-left: 83px;
     
 }
 .paw-icons ul li a img{
