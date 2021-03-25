@@ -245,7 +245,7 @@ footer p{
 
 .navigation{
     position: absolute;
-    bottom: 20px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -259,7 +259,7 @@ input[name="r"], input[name="s"]{
 .bar{
     width: 70px;
     height: 20px;
-    border: 2px solid rgb(196, 5, 123);
+    border: 3px solid rgb(196, 5, 123);
     margin: 6px;
     cursor: pointer;
     border-radius: 15px;
@@ -351,10 +351,6 @@ input[name="r"], input[name="s"]{
 
 #s4:checked ~ .s2{
     margin-left: -60%;
-}
-
-#s5:checked ~ .s2{
-    margin-left: -80%;
 }
 
 #slide2-link{
