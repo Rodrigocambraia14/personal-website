@@ -3,4 +3,4 @@
 
 used: HTML5, CSS3, (javascript soon);
 tools: GIMP, Sony Vegas Pro;
- (This project is subject to receive new updates at any time, as the need arises.)
+ (This project is subject to receive new updates at any time, as the need arises)
