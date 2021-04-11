@@ -62,8 +62,9 @@ html #all{
 }
 
 .nav-bar ul a:hover{
-    color: rgb(235, 0, 156)
+    color: rgb(235, 0, 156);
 }
+
 
 footer{
    position:fixed;
@@ -415,7 +416,6 @@ ul li a{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    
     border: solid black 1px;
     border-radius: 8px;
     background-image: linear-gradient(to bottom right, rgb(202, 5, 143),rgb(62, 6, 214));
@@ -451,6 +451,18 @@ ul li a{
     margin-top: 20px;
     width: 150px;   
 }
+.checkbtn{
+    font-size: 30px;
+    color:rgb(211, 2, 211);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 /* Responsive style */
 @media (min-aspect-ratio: 16/9) {
@@ -458,6 +470,7 @@ ul li a{
         width:100%;
         height:auto;
     }
+
     .text-box-outer:hover{
         transform: scale(1.1);
         
@@ -475,12 +488,39 @@ ul li a{
         cursor: pointer;
     }
     
+    
 }
 
 @media (max-aspect-ratio: 16/9) {
     #videobg{
         width:auto;
         height:100%;   
+    }
+    /*index*/
+    .nav-bar ul li a{
+        font-size: 20px;
+    }
+    .nav-bar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0, 0.9);
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+    }
+    .nav-bar ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
     }
 
     .text-box-outer, .text-box2-outer{
@@ -499,14 +539,15 @@ ul li a{
     }
     .text-box2-outer{
         margin: auto;
-        margin-top: 500px;
+        margin-top: 350px;
         margin-bottom: 5%;
         padding-bottom: 10px;
        
     }
 
     #contact{
-        top: 200%;
+        top: 130%;
+        
         
         
     }
@@ -517,4 +558,31 @@ ul li a{
         margin-bottom: 20px;
          
     }
+    /*hardskill*/
+    .h2-center{
+        top: 100px;
+    }
+    #hardskill ul{
+        margin-top: 40px;
+        margin-left: 10px;
+        padding-bottom: 55px;
+    }
+    #hardskill ul li{
+        margin: 10px;
+       
+        
+        
+    }
+    #hardskill ul li img{
+        width: 130px;
+        height: 130px;
+        
+    }
+     /*resume*/
+     .window{
+         width: 400px;
+         
+         margin-top: 200px;
+     }
+     /*projects*/
 }
