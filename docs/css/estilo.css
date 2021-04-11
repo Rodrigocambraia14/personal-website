@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -95,20 +96,6 @@ footer p{
     transform:translate(-50%,-50%);
 }
 
-@media (min-aspect-ratio: 16/9) {
-    #videobg{
-        width:100%;
-        height:auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    #videobg{
-        width:auto;
-        height:100%;   
-    }
-}
-
 .text-box-outer{
     background:rgb(0, 0, 0, 0.6);
     border-radius:6px;
@@ -120,10 +107,7 @@ footer p{
     transition: transform .3s;
 }
 
-.text-box-outer:hover{
-    transform: scale(1.1);
-    
-}
+
 
 .text-box-inner{
     display: flex;
@@ -148,9 +132,7 @@ footer p{
     transition: transform .3s;
 }
 
-.text-box2-outer:hover{
-    transform: scale(1.1);
-}
+
 
 .text-box2-outer img{
     display:flex;
@@ -387,6 +369,7 @@ ul li a{
 .paw-icons{
     position:absolute;
     width: 100%;
+    margin: auto;
     margin-top:50%;
     padding-bottom:5%;
 }
@@ -442,9 +425,7 @@ ul li a{
     transition: 0.3s all;
 }
 
-#btnOpenModal:hover{
-    cursor: pointer;
-}
+
 .window{             
     display: none;
     background-color: rgb(255, 255, 255);
@@ -464,14 +445,76 @@ ul li a{
     transition: 0.2s;
   }
   
-  .close:hover {
-    color: black;
-    cursor: pointer;
-    transform: scale(1.4);
-    color:rgb(211, 2, 211);
-  }
+  
 
 #resume-icon img{
     margin-top: 20px;
     width: 150px;   
+}
+
+/* Responsive style */
+@media (min-aspect-ratio: 16/9) {
+    #videobg{
+        width:100%;
+        height:auto;
+    }
+    .text-box-outer:hover{
+        transform: scale(1.1);
+        
+    }
+    .text-box2-outer:hover{
+        transform: scale(1.1);
+    }
+    .close:hover {
+        color: black;
+        cursor: pointer;
+        transform: scale(1.4);
+        color:rgb(211, 2, 211);
+      }
+      #btnOpenModal:hover{
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videobg{
+        width:auto;
+        height:100%;   
+    }
+
+    .text-box-outer, .text-box2-outer{
+        width: 100%;
+        height: auto;   
+    }
+    .text-box-outer{
+        margin: auto;
+        margin-top: 0;
+    }
+    .text-box-inner, .text-box2-inner{
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .text-box2-outer{
+        margin: auto;
+        margin-top: 500px;
+        margin-bottom: 5%;
+        padding-bottom: 10px;
+       
+    }
+
+    #contact{
+        top: 200%;
+        
+        
+    }
+    #contact ul li{
+        width: 50%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+         
+    }
 }
