@@ -388,6 +388,11 @@ ul li a{
     transition: 0.3s;   
 }
 
+.paw-icons ul li a img:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+
 
 
 
@@ -488,10 +493,7 @@ ul li a{
         opacity: 1.0;
         transform: scale(1.1);         
     }
-    .paw-icons ul li a img:hover{
-        opacity: 1.0;
-        transform: scale(1.1);
-    }
+    
     
     
 }
