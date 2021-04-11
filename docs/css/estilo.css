@@ -491,7 +491,7 @@ ul li a{
     
 }
 
-@media (max-width: 952px) {
+@media (max-aspect-ratio: 16/9) {
     #videobg{
         width:auto;
         height:100%;   
