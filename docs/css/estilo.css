@@ -159,12 +159,15 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:15%;  
+    margin-top:10%;  
 }
 
-.h2-center{
-    position: absolute;
-    margin-bottom: 380px; 
+.h2-center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     color: white;
 }
 
@@ -180,10 +183,7 @@ footer p{
     transition: 0.3s;     
 }
 
-#hardskill ul li img:hover{   
-    opacity: 1.0;
-    transform: scale(1.1);         
-}
+
 
 #hardskill ul li p{
     text-align: center;
@@ -388,10 +388,7 @@ ul li a{
     transition: 0.3s;   
 }
 
-.paw-icons ul li a img:hover{
-    opacity: 1.0;
-    transform: scale(1.1);
-}
+
 
 
 /** resume.html**/
@@ -487,6 +484,14 @@ ul li a{
       #btnOpenModal:hover{
         cursor: pointer;
     }
+    #hardskill ul li img:hover{   
+        opacity: 1.0;
+        transform: scale(1.1);         
+    }
+    .paw-icons ul li a img:hover{
+        opacity: 1.0;
+        transform: scale(1.1);
+    }
     
     
 }
@@ -562,17 +567,30 @@ ul li a{
          
     }
     /*hardskill*/
+    .h2-center h2{
+        position: absolute;
+        margin-top: 35%;
+    }
+    #hardskill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     #hardskill ul{
         margin-top: 150px;
         padding-bottom: 55px;
     }
     #hardskill ul li{
-        margin: 15px;
+        margin: auto;
+        margin-top: 10px;
         
     }
     #hardskill ul li img{
         width: 120px;
         height: 120px;
+        opacity: 1;
+        
         
         
     }
