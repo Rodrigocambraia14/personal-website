@@ -375,12 +375,12 @@ ul li a{
     padding-bottom:5%;
 }
 
-
-
+.paw-icons ul{
+    display: flex;
+    justify-content: center;
+}
 .paw-icons ul li{
-    display: inline-block;
-    margin: 20px;
-    padding-left: 83px;  
+    margin: auto;
 }
 
 .paw-icons ul li a img{
@@ -569,6 +569,7 @@ ul li a{
         justify-content: center;
     }
     .paw-icons ul li{
+        margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
