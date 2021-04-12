@@ -560,16 +560,11 @@ ul li a{
 
     #contact{
         top: 130%; 
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;;       
     }
-    #contact ul li{
-        width: 100%;
-        margin: auto;  
-        margin-top: 20px;
-        margin-bottom: 20px;
+    #contact ul li a{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
    
     /*hardskill*/
