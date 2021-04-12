@@ -384,6 +384,7 @@ ul li a{
 }
 
 .paw-icons ul li a img{
+    width: 300px;
     opacity: 0.3;
     transition: 0.3s;   
 }
@@ -558,15 +559,20 @@ ul li a{
        
     }
 
-    #contact{
-        top: 130%; 
+    .paw-icons{
+        top: 130%;   
     }
-    #contact ul li a{ 
-        display: flex;
-        align-items: center;
+    .paw-icons ul li{
+        display: block;
         justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-   
+    .paw-icons ul li img{
+        width: 250px;
+         
+    }
     /*hardskill*/
     .h2-center h2{
         position: absolute;
