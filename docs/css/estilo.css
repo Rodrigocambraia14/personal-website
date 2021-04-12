@@ -561,9 +561,10 @@ ul li a{
     #contact{
         top: 130%;        
     }
-    #contact ul li{
-        width: 50%;
-        margin:auto;
+    #contact ul li img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
          
