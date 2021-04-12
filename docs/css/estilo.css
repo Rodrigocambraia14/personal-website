@@ -562,11 +562,12 @@ ul li a{
     .paw-icons{
         top: 130%;   
     }
-    .paw-icons ul li{
-        width: 75%;
+    .paw-icons ul{
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+    }
+    .paw-icons ul li{
         margin-top: 20px;
         margin-bottom: 20px;
     }
