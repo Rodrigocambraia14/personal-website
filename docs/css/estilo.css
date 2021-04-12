@@ -563,15 +563,12 @@ ul li a{
         top: 130%;   
     }
     .paw-icons ul li{
-        display: block;
+        width: 75%;
+        display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
-    }
-    .paw-icons ul li img{
-        width: 250px;
-         
     }
     /*hardskill*/
     .h2-center h2{
