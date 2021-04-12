@@ -564,12 +564,16 @@ ul li a{
     }
     .paw-icons ul{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .paw-icons ul li{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .paw-icons ul li a img{
+        width: 250px;
     }
     /*hardskill*/
     .h2-center h2{
