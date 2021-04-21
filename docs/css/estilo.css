@@ -611,7 +611,7 @@ ul li a{
      }
      /*projects*/
      .h2-projects{
-         top: 120px;
+         top: 150px;
      }
      .middle{
          width: 90%;
@@ -620,23 +620,17 @@ ul li a{
      .slidershow{
          height: 250px;
      }
-     #navigation1{
-         width: 90%;
-     }
+
      .slidershow2, #navigation2{
          margin-top: 450px;
          padding-bottom: 55px;
      }
 
      #slide1-link{
-         display: flex;
-         justify-content: center;
-         margin-top: 500px;
+         top: 320px;
      }
      #slide2-link{
-        display: flex;
-        justify-content: center;
-        margin-top: 950px;
+         top: 535px;
          
      }
 }
