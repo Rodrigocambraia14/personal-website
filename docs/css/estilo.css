@@ -610,4 +610,27 @@ ul li a{
          margin-top: 200px;
      }
      /*projects*/
+     .h2-projects{
+         top: 120px;
+     }
+     .middle{
+         width: 90%;
+         height: 280px;
+     }
+     .slidershow{
+         height: 250px;
+     }
+
+     .slidershow2, #navigation2{
+         margin-top: 450px;
+         padding-bottom: 55px;
+     }
+
+     #slide1-link{
+         top: 320px;
+     }
+     #slide2-link{
+         top: 525px;
+         
+     }
 }
