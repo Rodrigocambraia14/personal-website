@@ -620,17 +620,19 @@ ul li a{
      .slidershow{
          height: 250px;
      }
-
+     #navigation1{
+         width: 90%;
+     }
      .slidershow2, #navigation2{
          margin-top: 450px;
          padding-bottom: 55px;
      }
 
      #slide1-link{
-         top: 320px;
+         top: 350px;
      }
      #slide2-link{
-         top: 525px;
+         top: 555px;
          
      }
 }
