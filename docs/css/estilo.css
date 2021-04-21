@@ -629,10 +629,14 @@ ul li a{
      }
 
      #slide1-link{
-         top: 400px;
+         display: flex;
+         justify-content: center;
+         margin-top: 480px;
      }
      #slide2-link{
-         top: 645px;
+        display: flex;
+        justify-content: center;
+        margin-top: 890px;
          
      }
 }
