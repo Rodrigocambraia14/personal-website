@@ -617,6 +617,9 @@ ul li a{
          width: 90%;
          height: 280px;
      }
+     #navigation1{
+         width: 90%;
+     }
      .slidershow{
          height: 250px;
      }
@@ -627,10 +630,10 @@ ul li a{
      }
 
      #slide1-link{
-         top: 340px;
+         top: 350px;
      }
      #slide2-link{
-         top: 555px;
+         top: 575px;
          
      }
 }
